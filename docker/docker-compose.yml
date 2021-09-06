@@ -41,7 +41,7 @@ services:
   app:
     <<: *mayan-container
     ports:
-      - "80:8000"
+      - "3000:8000"
 
   postgresql:
     command:
