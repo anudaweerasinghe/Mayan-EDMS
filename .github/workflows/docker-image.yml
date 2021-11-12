@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: make docker build
+      run: make docker -build
     
     - name: Codacy Coverage Reporter
       # You may pin to the exact commit or the version.
